@@ -83,7 +83,7 @@ SQL was used to perform exploratory analysis and answer key business questions.
 
 ### Power BI Dashboard
 A Power BI dashboard was created to visually represent attrition trends and KPIs.
-! [images]/(image.png)
+![images]/(image.png)
 
 #### Power BI Features:
 - Interactive visuals and filters
