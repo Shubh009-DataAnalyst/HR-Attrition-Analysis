@@ -126,7 +126,7 @@ planning, workload management, and retention strategies.
 ---
 
 ## Author
-**Barry Allen**  
+**Shubham Bhatt**  
 Aspiring Data Analyst  
 Skills: Excel | Power Query | SQL | Power BI
 
