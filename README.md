@@ -1,20 +1,26 @@
 # HR Employee Attrition Analysis Project
 
-## Project Overview
-This project focuses on analyzing employee attrition to understand the key factors
-that cause employees to leave an organization. Employee attrition directly impacts
-company performance, hiring costs, and workforce stability.  
-The objective of this project is to use data analysis and visualization techniques
-to identify attrition patterns and provide actionable insights for HR decision-making.
+## Summary
+**Business Problem:** Identify the main drivers of employee attrition so the company can take targeted retention actions.
+
+**Approach & Hypotheses:** Based on common HR knowledge, I hypothesized that department, overtime, and job satisfaction would be strong indicators of attrition risk. I focused the analysis on these dimensions along with income and years at the company to test that hypothesis against the data.
+
+**Key Findings:**
+- Overall attrition rate: 36%
+- Sales department showed the highest attrition
+- Overtime and low job satisfaction were the strongest drivers
+- Attrition was more common among employees with fewer years at the company
+
+**Tools Used:** Excel, Power Query, SQL, Power BI
 
 ---
 
-## Business Objectives
-- Analyze overall employee attrition rate
-- Identify departments with the highest attrition
-- Study the impact of salary, job satisfaction, and overtime on attrition
-- Understand attrition trends based on experience and performance
-- Support HR teams with data-driven insights to reduce employee turnover
+## Project Overview
+This project focuses on analyzing employee attrition to understand the key factors
+that cause employees to leave an organization. Employee attrition directly impacts
+company performance, hiring costs, and workforce stability.
+The objective of this project is to use data analysis and visualization techniques
+to identify attrition patterns and provide actionable insights for HR decision-making.
 
 ---
 
@@ -47,16 +53,16 @@ Data cleaning and transformation were performed using **Power Query**.
 - Prepared data for SQL analysis and Power BI reporting
 
 #### Cleaned Columns:
-- EmployeeID  
-- Age  
-- Department  
-- Gender  
-- Monthly_Income  
-- Years_At_Company  
-- Attrition  
-- Over_Time  
-- Job_Satisfaction  
-- Performance_Rating  
+- EmployeeID
+- Age
+- Department
+- Gender
+- Monthly_Income
+- Years_At_Company
+- Attrition
+- Over_Time
+- Job_Satisfaction
+- Performance_Rating
 
 ---
 
@@ -85,7 +91,6 @@ SQL was used to perform exploratory analysis and answer key business questions.
 A Power BI dashboard was created to visually represent attrition trends and KPIs.
 ![image](images/image.png)
 
-
 #### Power BI Features:
 - Interactive visuals and filters
 - Department-wise attrition charts
@@ -101,7 +106,7 @@ A Power BI dashboard was created to visually represent attrition trends and KPIs
 
 ---
 
-## Key Insights
+## Key Insights (Detailed)
 - Departments with higher workload showed increased attrition
 - Employees with lower monthly income were more likely to leave
 - Lower job satisfaction strongly correlated with higher attrition
@@ -112,7 +117,7 @@ A Power BI dashboard was created to visually represent attrition trends and KPIs
 
 ## Conclusion
 This project demonstrates how data cleaning, SQL analysis, and Power BI visualization
-can be combined to analyze employee attrition effectively.  
+can be combined to analyze employee attrition effectively.
 The insights generated can help HR teams improve employee engagement, compensation
 planning, workload management, and retention strategies.
 
@@ -126,10 +131,6 @@ planning, workload management, and retention strategies.
 ---
 
 ## Author
-**Shubham Bhatt**  
-Aspiring Data Analyst  
+**Shubham Bhatt**
+Aspiring Data Analyst
 Skills: Excel | Power Query | SQL | Power BI
-
----
-end-to-end data analysis workflow from raw data to business insights.
-
